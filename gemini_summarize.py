@@ -56,8 +56,9 @@ def get_summary(experience_level, content):
 
 
 def save_summary_to_gcs(summary):
+    gcs_key_path = os.environ.get("GCS_KEY_FILE")
     creds = service_account.Credentials.from_service_account_file(
-        "/Users/saada/Desktop/AI Project 1/financial-market-projects-5752586a7e64.json"
+       gcs_key_path
     )
     storage_client = storage.Client(credentials=creds)
     bucket = storage_client.bucket("marketanalyzerproject")
