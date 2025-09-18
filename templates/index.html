@@ -1,0 +1,27 @@
+{%extends 'layout.html'%}
+
+{%block content %}
+
+<h1> The Summarizer </h1>
+
+<p>Use the following AI tool to summarize an industry of your choice in the context of finance so you can make informed decisions in the market</p>
+<form method = "POST" class = 'topic' action = "/submit_text">
+    <label for = "topic_Chosen" >Please choose an Industry</label>
+    <input type = "text" id = "topic_Chosen" name = "chosenTopic" required><br>
+    
+    <label for = "experience_Level" >Please choose your experience level (beginner, intermediate, advanced)</label>
+    <input type = "text" id = "experience_Level" name = "experienceLevel" required><br>
+    <button type="submit"> Submit </button>
+</form>
+
+<h2> Interested in recieving a daily summary via Email?</h2>
+
+<form method = "POST" class = 'email' action = "/submit_email">
+    <label for = "email_Chosen" >Please enter your email</label>
+    <input type = "email" id = "email_Chosen" name = "chosenEmail" required><br>
+    <label for = "topic_Chosen" >Please choose an Industry</label>
+    <input type = "text" id = "topic_Chosen_email" name = "chosenTopic_email" required><br>
+    <button type="submit"> Submit </button>
+</form>
+
+{%endblock%}
