@@ -146,17 +146,15 @@ class WebScraper:
         results = []
         
         async with async_playwright() as p:
-            # Launch browser (headless=False for debugging)
             browser = await p.chromium.launch(
                 headless=True,
+                executable_path="/usr/bin/chromium-browser",  # or /usr/bin/chromium
                 args=[
-                    '--no-sandbox',
-                    '--disable-dev-shm-usage',
-                    '--disable-blink-features=AutomationControlled',
-                    '--disable-web-security',
-                    '--disable-extensions'
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage"
                 ]
             )
+
             
             try:
                 for i, url in enumerate(urls):
