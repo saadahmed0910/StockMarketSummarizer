@@ -147,13 +147,14 @@ class WebScraper:
         
         async with async_playwright() as p:
             browser = await p.chromium.launch(
-                executable_path=p.chromium.executable_path(),
                 headless=True,
+                executable_path="/usr/bin/chromium-browser",  # or /usr/bin/chromium
+                args=[
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage"
+                ]
             )
-            page = await browser.new_page()
-            await page.goto("https://example.com")
-            print(await page.title())
-            await browser.close()
+
             
             try:
                 for i, url in enumerate(urls):
