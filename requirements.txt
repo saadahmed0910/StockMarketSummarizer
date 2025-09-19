@@ -7,3 +7,4 @@ google-genai
 tqdm
 gunicorn
 markdown
+google-cloud-storage
