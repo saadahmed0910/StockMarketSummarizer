@@ -1,11 +1,9 @@
 # Use a Python base image. We're using a specific version (3.11)
 # that is known to work with Playwright to avoid version issues.
 FROM python:3.11-slim
+
 # Install system-level dependencies for running a browser.
 # These are the libraries that Playwright's browser engines need to function.
-
-
-
 RUN apt-get update && apt-get install -y \
     libglib2.0-0 \
     libnss3 \
