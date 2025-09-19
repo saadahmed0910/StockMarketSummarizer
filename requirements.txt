@@ -12,4 +12,4 @@ pandas
 numpy
 newsapi-python
 playwright
-playwright-browsers
+
