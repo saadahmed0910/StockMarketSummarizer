@@ -7,3 +7,5 @@ google-genai
 tqdm
 gunicorn
 markdown
+pandas
+numpy
