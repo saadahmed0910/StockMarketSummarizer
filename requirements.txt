@@ -11,3 +11,4 @@ google-cloud-storage
 pandas
 numpy
 newsapi-python
+playwright
