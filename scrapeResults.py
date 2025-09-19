@@ -146,15 +146,14 @@ class WebScraper:
         results = []
         
         async with async_playwright() as p:
-            # Launch browser (headless=False for debugging)
             browser = await p.chromium.launch(
-                    headless=True,  # must be headless in the cloud
-                    args=[
-                        '--no-sandbox',                 # prevents sandboxing errors in containers
-                        '--disable-dev-shm-usage',      # prevents shared memory errors
-                        '--disable-blink-features=AutomationControlled'
-                    ]
-                )
+                executable_path=p.chromium.executable_path(),
+                headless=True,
+            )
+            page = await browser.new_page()
+            await page.goto("https://example.com")
+            print(await page.title())
+            await browser.close()
             
             try:
                 for i, url in enumerate(urls):
