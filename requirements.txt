@@ -10,4 +10,4 @@ markdown
 google-cloud-storage
 pandas
 numpy
-newsapi
+newsapi-python
