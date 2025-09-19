@@ -8,3 +8,5 @@ tqdm
 gunicorn
 markdown
 google-cloud-storage
+pandas
+numpy
