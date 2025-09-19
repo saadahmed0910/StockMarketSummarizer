@@ -3,12 +3,12 @@ import pandas as pd
 import os
 
 # Define the file path
-file_path = 'news_raw.json'
+file_path = os.path.join(os.getcwd(), "news_raw.json")
 
 def json_to_dataframe(file_path):
     # Use a default file path if none is provided
     if file_path is None:
-        file_path = 'news_raw.json'
+        file_path = os.path.join(os.getcwd(), "news_raw.json")
         
     # Check if the file exists; if not, create it
     if not os.path.exists(file_path):

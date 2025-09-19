@@ -13,8 +13,6 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-
-
 file_path = 'news_raw.json'
 app = Flask(__name__)
 
@@ -41,8 +39,6 @@ def email_signup():
 
     # Acknowledge email submission
     return render_template('thankyou_email.html', user_email=user_email, email_industry=email_industry)
-
-
 
 @app.route('/submit_text', methods=['POST'])
 def industry_search():
@@ -78,8 +74,6 @@ def industry_search():
         user_industry_choice=user_industry_choice,
         formatted_summary=formatted_summary
     )
-
-
 
 
 if __name__ == '__main__':

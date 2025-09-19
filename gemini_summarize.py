@@ -1,25 +1,23 @@
 from google import genai
-import requests
 from tqdm import tqdm
-import time
 from dotenv import load_dotenv
 from scrapeResults import llm_ready_content
 import os
-import json
 from google.cloud import storage
 from datetime import datetime
 import uuid
 from google.oauth2 import service_account
 
-
-
 load_dotenv()
 os.environ['GEMINI_API_KEY'] = os.getenv('GEMINI_API_KEY')
 client = genai.Client()
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+example_format_path = os.path.join(BASE_DIR, "example_format.txt")
+
 def get_summary(experience_level, content):
     # Improved prompt with clearer instructions and formatting examples
-    with open("example_format.txt", "r", encoding="utf-8") as f:
+    with open(example_format_path, "r", encoding="utf-8") as f:
         example_format = f.read()
 
         # Assuming your scraped article content is stored in this variable
@@ -47,18 +45,18 @@ def get_summary(experience_level, content):
         Here is the content of the articles:
         {llm_ready_content}
         """)
+    
+    summary_path = os.path.join(os.getcwd(), "summary.txt")
 
-    with open("summary.txt", "w", encoding="utf-8") as f:
+    with open(summary_path, "w", encoding="utf-8") as f:
         f.write(response.text)
 
     return response.text
 
-
-
 def save_summary_to_gcs(summary):
     gcs_key_path = os.environ.get("GCS_KEY_FILE")
     creds = service_account.Credentials.from_service_account_file(
-       gcs_key_path
+        gcs_key_path
     )
     storage_client = storage.Client(credentials=creds)
     bucket = storage_client.bucket("marketanalyzerproject")
