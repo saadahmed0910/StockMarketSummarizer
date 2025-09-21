@@ -15,4 +15,4 @@ COPY . .
 
 # Define the command to run your app
 # Make sure to replace `scrapeResults.py` with your main script's name
-CMD ["python", "app.py"]
+CMD ["python", "scrapeResults.py"]
