@@ -1,7 +1,7 @@
 from google import genai
 from tqdm import tqdm
 from dotenv import load_dotenv
-from scrapeResults import llm_ready_content
+from scrapeResults import get_llm_ready_content
 import os
 from google.cloud import storage
 from datetime import datetime
@@ -9,6 +9,20 @@ import uuid
 from google.oauth2 import service_account
 
 load_dotenv()
+
+# DEBUG - Remove this after it works
+print("="*50)
+print("Environment Variables Check:")
+print(f"GEMINI_API_KEY exists: {bool(os.getenv('GEMINI_API_KEY'))}")
+print(f"GCS_KEY_FILE: {os.getenv('GCS_KEY_FILE')}")
+print(f"GCS_CREDENTIALS_PATH: {os.getenv('GCS_CREDENTIALS_PATH')}")
+print("="*50)
+
+
+
+
+
+
 os.environ['GEMINI_API_KEY'] = os.getenv('GEMINI_API_KEY')
 client = genai.Client()
 
@@ -43,7 +57,7 @@ def get_summary(experience_level, content):
         Remember the experience level of the user is {experience_level}. Tailor your language and explanations accordingly, avoiding jargon for beginners and providing deeper insights for advanced users.
         
         Here is the content of the articles:
-        {llm_ready_content}
+        {content}
         """)
     
     summary_path = os.path.join(os.getcwd(), "summary.txt")
@@ -54,7 +68,7 @@ def get_summary(experience_level, content):
     return response.text
 
 def save_summary_to_gcs(summary):
-    gcs_key_path = os.environ.get("GCS_KEY_FILE")
+    gcs_key_path = os.getenv('GCS_CREDENTIALS_PATH')
     creds = service_account.Credentials.from_service_account_file(
         gcs_key_path
     )

@@ -1,201 +1,201 @@
 {
     "status": "ok",
-    "totalResults": 1218,
+    "totalResults": 1368,
     "articles": [
         {
             "source": {
-                "id": "the-verge",
-                "name": "The Verge"
+                "id": "business-insider",
+                "name": "Business Insider"
             },
-            "author": "Mia Sato",
-            "title": "Can Luigi Mangione get too big to jail?",
-            "description": "The first people in line on Tuesday, I was told, started camping out on the sidewalk two days ago. Luigi Mangione, the man accused of gunning down UnitedHealthcare CEO Brian Thompson in December 2024, was due in court at 9AM ET for a hearing in one of three c\u2026",
-            "url": "https://www.theverge.com/report/779351/luigi-mangione-hearing-new-york-social-media-ecosystem",
-            "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/gettyimages-2235217575.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-            "publishedAt": "2025-09-16T22:08:13Z",
-            "content": "<ul><li></li><li></li><li></li></ul>\r\nCan Luigi Mangione get too big to jail?\r\nTwo terrorism-related charges against Mangione were dropped at a court hearing on Tuesday in the New York state case.\r\nb\u2026 [+12975 chars]"
+            "author": "Ana Altchek",
+            "title": "Box's CEO predicts jobs will grow in these 3 sectors due to AI",
+            "description": "Box CEO Aaron Levie predicts AI will efficiency gains will boost demand for human workers in sales, healthcare, and legal sectors.",
+            "url": "https://www.businessinsider.com/aaron-levie-shares-3-sectors-jobs-grow-with-ai-2025-9",
+            "urlToImage": "https://i.insider.com/68db3dd35dbc4fd10da9d00f?width=1200&format=jpeg",
+            "publishedAt": "2025-10-01T14:52:36Z",
+            "content": "Aaron Levie said he uses a variety of AI tools.Box\r\n<ul><li>Box CEO Aaron Levie predicts AI will increase demand for certain sectors.</li><li>He said as AI tools enhance efficiency, they will boost d\u2026 [+2910 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Core77.com"
+                "name": "NPR"
             },
-            "author": "Core Jr",
-            "title": "Designing Healthcare Access with Empathy and Innovation",
-            "description": "The WE app, a 2025 Honoree in the Core77 Design Awards, represents a thoughtful exploration of how design can mediate between vulnerable users and complex systems. Developed by QIMU Design, with designers Shuting Jiang and Tianyue Wu, the project asks what it\u2026",
-            "url": "https://www.core77.com/posts/138544/Designing-Healthcare-Access-with-Empathy-and-Innovation",
-            "urlToImage": "https://s3files.core77.com/blog/images/lead_n_spotlight/1755846_lead_400_138544_.png",
-            "publishedAt": "2025-09-16T14:00:00Z",
-            "content": "The WE app, a 2025 Honoree in the Core77 Design Awards, represents a thoughtful exploration of how design can mediate between vulnerable users and complex systems. Developed by QIMU Design, with desi\u2026 [+2371 chars]"
+            "author": "Obed Manuel",
+            "title": "What will Congress do after the shutdown? We asked a Republican and a Democrat",
+            "description": "Most of the federal government is shut down after Congress failed to reach a funding agreement. We asked two House members \u2014 a Democrat and Republican \u2014 where they think talks go from here",
+            "url": "https://www.npr.org/2025/10/01/g-s1-91462/federal-government-shutdown-republicans-democrats-negotiation",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1944x1094+0+101/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F30%2Fbab9bb08493187ad41bbcf6bf953%2Fap25274456520062.jpg",
+            "publishedAt": "2025-10-01T17:02:33Z",
+            "content": "Most of the federal government is shut down after Senate Republicans and Democrats failed to reach a funding agreement to keep it open.\r\nDemocrats wanted to extend Affordable Care Act (ACA) subsidies\u2026 [+3498 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Slate Magazine"
+                "name": "NPR"
             },
-            "author": "Anna Sale",
-            "title": "Private Equity Blew Up My Life",
-            "description": "Can you get rewarded without taking a risk? Sure, if you work in private equity.",
-            "url": "https://slate.com/podcasts/death-sex-money/2025/09/how-does-private-equity-work",
-            "urlToImage": "https://compote.slate.com/images/d8260f97-8a97-4bd6-ad6f-c7bfc9943fc6.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-            "publishedAt": "2025-09-16T07:40:00Z",
-            "content": "When Megan Greenwell was 34 she landed a coveted job in journalism as the editor-in-chief of the sports and culture blog, Deadspin. Just over a year later a post about why she was resigning went vira\u2026 [+423 chars]"
+            "author": "Brian Mann",
+            "title": "Trump freezes $18 billion in funding for NYC, home to key Democratic leaders",
+            "description": "On the first day of the federal government shutdown, the Trump administration froze \"roughly $18 billion\" in infrastructure projects for New York City, home to two of Trump's Democratic congressional opponents.  It's not the first time Trump has threatened ci\u2026",
+            "url": "https://www.npr.org/2025/10/01/nx-s1-5559386/trump-freezes-18-billion-in-funding-for-nyc-home-to-key-democratic-leaders",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5392x3033+0+280/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F87%2Ff3bec19747c49d3885e032b179e5%2Fgettyimages-2237787866.jpg",
+            "publishedAt": "2025-10-01T17:55:39Z",
+            "content": "On the first day of the federal government shutdown, the Trump administration fired a financial salvo at New York City, home to Senate Minority Leader Senator Chuck Schumer and House Minority Leader \u2026 [+3517 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Yanko Design"
+                "name": "Gizmodo.com"
             },
-            "author": "Ida Torres",
-            "title": "Luminate Lily helps reduce chemotherapy-induced hair loss",
-            "description": "Luminate Lily helps reduce chemotherapy-induced hair lossLuminate, a healthcare company focused on at\u2011home solutions for cancer patients, has introduced Lily. It\u2019s a wearable device that uses gentle scalp compression to lessen...",
-            "url": "https://www.yankodesign.com/2025/09/16/luminate-lily-helps-reduce-chemotherapy-induced-hair-loss/",
-            "urlToImage": "https://www.yankodesign.com/images/design_news/2025/09/luminate-lily-helps-reduce-chemotherapy-induced-haird-loss/luminate-lily-01.jpg",
-            "publishedAt": "2025-09-16T10:07:10Z",
-            "content": "Luminate, a healthcare company focused on athome solutions for cancer patients, has introduced Lily. It\u2019s a wearable device that uses gentle scalp compression to lessen hair loss caused by chemothera\u2026 [+2975 chars]"
+            "author": "Ece Yildirim",
+            "title": "Trump Admin Cuts Off Funding for NYC Transportation, Blames \u2018DEI\u2019",
+            "description": "Republicans use the government shutdown to attack transportation projects in Democratic cities.",
+            "url": "https://gizmodo.com/trump-admin-cuts-off-funding-for-nyc-transportation-blames-dei-2000666188",
+            "urlToImage": "https://gizmodo.com/app/uploads/2025/10/shutterstock_2468732001-1200x675.jpg",
+            "publishedAt": "2025-10-01T17:55:46Z",
+            "content": "The Department of Transportation is blocking funding to two highly anticipated New York City transportation infrastructure projects.\r\nThe Department issued an interim final rule that bars \u201crace- and \u2026 [+3748 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Travel+Leisure"
+            },
+            "author": "Michael Cappetta",
+            "title": "This Country Was Just Named the Best Place in the World to Retire in 2025 for Its Health Care, Equality, and Quality of Life",
+            "description": "Ireland, Switzerland, and Iceland also ranked high, while the U.S. came in at No. 21.",
+            "url": "https://www.travelandleisure.com/best-country-to-retire-2025-11817415",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/h4TErHCtGU90g_bChN8jvw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTg7Y2Y9d2VicA--/https://media.zenfs.com/en/travel.travelleisure.com/a3db25523430a3875d10bede28cfbf0d",
+            "publishedAt": "2025-10-02T12:07:00Z",
+            "content": "Retirement years can bring new adventures and cultural experiences, especially for those who choose to relocate abroad.\r\nThe new\u00a02025 Global Retirement Index highlighted Norway as the best country fo\u2026 [+2187 chars]"
         },
         {
             "source": {
                 "id": "business-insider",
                 "name": "Business Insider"
             },
-            "author": "Tim Paradis",
-            "title": "Quitting your job this fall might be a bad idea",
-            "description": "A cooling labor market and economic worries could dampen hiring this fall. It doesn't mean you should give up, a recruiter told Business Insider.",
-            "url": "https://www.businessinsider.com/job-seekers-shouldnt-expect-fall-hiring-spike-2025-9",
-            "urlToImage": "https://i.insider.com/68c8735cf9db348adc0b81c6?width=1200&format=jpeg",
-            "publishedAt": "2025-09-16T16:09:19Z",
-            "content": "Job seekers listen to Logan Reed, left, a talent acquisition coordinator for Princess Cruise Line, at a job fair Thursday, Aug. 28, 2025, in Sunrise, Florida.Marta Lavandier/Associated Press\r\n<ul><li\u2026 [+4840 chars]"
+            "author": "Jacob Zinkula",
+            "title": "A Northwestern grad shares how she landed job interviews at Uber, Meta, and Amazon \u2014 and a tech role at Salesforce",
+            "description": "A Gen Zer shares the job search strategies that helped her land interviews at Uber, Meta, and Amazon, and a tech role at Salesforce.",
+            "url": "https://www.businessinsider.com/job-search-advice-strategies-tech-interviews-uber-meta-amazon-salesforce-2025-10",
+            "urlToImage": "https://i.insider.com/68cd87cbf9db348adc0bd2d9?width=1200&format=jpeg",
+            "publishedAt": "2025-10-01T09:00:02Z",
+            "content": "Karishma MandalKarishma Mandal\r\n<ul><li>Karishma Mandal moved from Chicago to San Francisco, hoping to land a Big Tech job.</li><li>She interviewed at Uber, Meta, and Amazon \u2014 and landed a product ma\u2026 [+7722 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Rebecca Torrence",
+            "title": "Midi Health raises $50 million in funding as the menopause startup bets on longevity and AI",
+            "description": "Midi's Series C raise comes as the startup's menopause care business surges. The company is now posting a $150 million revenue run rate.",
+            "url": "https://www.businessinsider.com/womens-health-startup-midi-health-50-million-longevity-ai-2025-10",
+            "urlToImage": "https://i.insider.com/68ddacff1c1f80efbec4bfcf?width=1200&format=jpeg",
+            "publishedAt": "2025-10-02T13:07:43Z",
+            "content": "Midi Health cofounder and CEO Joanna Strober.Midi Health\r\n<ul><li>Women's health startup Midi Health raised $50 million in Series C funding, Business Insider learned.</li><li>CEO Joanna Strober said \u2026 [+6883 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Rolling Stone"
+                "name": "nj.com"
             },
-            "author": "Larisha Paul",
-            "title": "\u2018The Pitt\u2019 Dedicates Outstanding Drama Series Emmy Win to Healthcare Workers",
-            "description": "'The Pitt' won Outstanding Drama Series at the 2025 Emmys, with R. Scott Gemmill dedicating the award to healthcare workers.",
-            "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/the-pitt-wins-outstanding-drama-series-2025-emmy-awards-1235426176/",
-            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/09/The-Pitt-drama-series.jpg?crop=0px%2C63px%2C1800px%2C1015px&resize=1600%2C900",
-            "publishedAt": "2025-09-15T03:22:07Z",
-            "content": "ER, the medical drama that brought Noah Wyle together with writer R. Scott Gemmill and executive producer John Wells, earned 23 Emmy Awards over the course of its 15-season run. Earlier this year, th\u2026 [+1882 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BBC News"
-            },
-            "author": null,
-            "title": "Five challenges facing Mark Carney",
-            "description": "From a faltering economy to high expectation from the public, parliament's return could bring challenges for Canada's new PM.",
-            "url": "https://www.bbc.com/news/articles/ckg2700vzrko",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/74ca/live/106d7ec0-8f12-11f0-bf0b-13ad835103b3.jpg",
-            "publishedAt": "2025-09-15T04:59:38Z",
-            "content": "Jessica MurphyBBC News, Toronto\r\nA trade war with its largest economic partner, a faltering economy - and a lot of promises to deliver on. \r\nThese are only some of the high-stake tests facing Canadia\u2026 [+6842 chars]"
+            "author": "Lauren Sforza",
+            "title": "New poll: Here\u2019s how many Americans blame Trump for government shutdown",
+            "description": "President Donald Trump blamed Democrats for the ongoing government shutdown \u2014 but who do Americans blame?",
+            "url": "https://www.nj.com/politics/2025/10/new-poll-heres-how-many-americans-blame-trump-for-government-shutdown.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/pO2NqZr1L98V6Gpmn2LQxg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/nj_com_articles_950/e4a4511f89598c5272426bf28b012d2c",
+            "publishedAt": "2025-10-02T17:51:32Z",
+            "content": "President Donald Trumpblamed Democrats for the ongoing shutdown of the federal government but who do Americans blame?\r\nA new flash poll from The Washington Post found that significantly more American\u2026 [+2385 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Forbes"
             },
-            "author": "Priya Oberoi, Contributor, \n Priya Oberoi, Contributor\n https://www.forbes.com/sites/priyaoberoi/",
-            "title": "Women\u2019s Health Investing: A New Playbook, Anchored In Sport",
-            "description": "The convergence of sports, longevity, and AI-native healthcare represents a fundamental restructuring of healthcare.",
-            "url": "https://www.forbes.com/sites/priyaoberoi/2025/09/15/womens-health-investing-a-new-playbook-anchored-in-sport/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68c2ab758627f7b742846d2b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2025-09-15T17:09:17Z",
-            "content": "INDIANAPOLIS, INDIANA - SEPTEMBER 11: Caitlin Clark #22 of the Indiana Fever dribbles the ball while being guarded by Sydney Colson #51 of the Las Vegas Aces in the first quarter at Gainbridge Fieldh\u2026 [+7358 chars]"
+            "author": "Dr. Sai Balasubramanian, M.D., J.D., Contributor, \n Dr. Sai Balasubramanian, M.D., J.D., Contributor\n https://www.forbes.com/sites/saibala/",
+            "title": "United Health\u2019s Optum Insights Announces Sandeep Dadlani As New CEO; These Are His Top 3 Priorities",
+            "description": "United Healthcare Group is one of the biggest players in the American healthcare industry, and is taking a tech-forward approach to the future.",
+            "url": "https://www.forbes.com/sites/saibala/2025/10/01/united-healths-optum-insights-announces-sandeep-dadlani-as-new-ceo-these-are-his-top-3-priorities/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68dc2ab18ae522f91c835c22/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2025-10-01T13:00:00Z",
+            "content": "United Healthcare Group is one of the biggest players in the American healthcare industry, and is taking a tech-forward approach to the future.\r\nAFP via Getty Images\r\nUnitedHealth Group (UHG) is a ma\u2026 [+5027 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "HYPEBEAST"
+                "name": "NPR"
             },
-            "author": "info@hypebeast.com (Hypebeast)",
-            "title": "Neko Health Expands to Northern England with New Manchester Centre",
-            "description": "Less than a year after its successful UK launch, Swedish preventive healthcare technology company Neko Health has expanded into Northern England.Founded by Hjalmar Nilsonne and Spotify\u2019s Daniel Ek, Neko Health already operates its UK centres in Marylebone and\u2026",
-            "url": "https://hypebeast.com/2025/9/neko-health-expands-to-manchester",
-            "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2025%2F09%2F15%2Fneko-health-expands-to-manchester-tw.jpg?w=1080&cbr=1&q=90&fit=max",
-            "publishedAt": "2025-09-15T13:54:07Z",
-            "content": "Less than a year after its successful UK launch, Swedish preventive healthcare technology company Neko Health has expanded into Northern England.\r\nFounded by Hjalmar Nilsonne and Spotifys Daniel Ek, \u2026 [+1229 chars]"
+            "author": "The Associated Press",
+            "title": "Anti-government protests in Morocco turn deadly, with 2 killed in a small town",
+            "description": "Youth-led anti-government demonstrators in Morocco filled the streets for a fifth straight night on Wednesday, as protests over the state of public services descended into deadly violence.",
+            "url": "https://www.npr.org/2025/10/02/g-s1-91601/anti-government-protests-morocco",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5464x3074+0+285/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fba%2F4d%2F1c249bce4294961300538f7769e5%2Fap25274828738910.jpg",
+            "publishedAt": "2025-10-02T08:24:25Z",
+            "content": "RABAT, Morocco Anti-government demonstrators in Morocco filled the streets for a fifth straight night on Wednesday, as protests over the state of public services descended into deadly violence. Polic\u2026 [+5778 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Dezeen"
+                "name": "NPR"
             },
-            "author": "Cajsa Carlson",
-            "title": "Out of Orifice exhibition explores objects we put in our bodies for health or pleasure",
-            "description": "Design studio Heirloom showcased products ranging from cotton buds to butt plugs, acid tabs and catheters at its London Design Festival exhibition, which aims to \"infuse the things we have to put in our bodies with a bit more care\". For the east London launch\u2026",
-            "url": "https://www.dezeen.com/2025/09/15/heirloom-out-of-orifice-exhibition-london-design-festival/",
-            "urlToImage": "https://static.dezeen.com/uploads/2025/09/out-of-orifice-heirloom_dezeen_2364_col_hero.jpg",
-            "publishedAt": "2025-09-15T09:00:43Z",
-            "content": "Design studio Heirloom showcased products ranging from cotton buds to butt plugs, acid tabs and catheters at its London Design Festival exhibition, which aims to \"infuse the things we have to put in \u2026 [+3825 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Gothamist"
-            },
-            "author": "Ben Feuerherd",
-            "title": "NY judge drops state terrorism charges against Luigi Mangione in UnitedHealthcare case",
-            "description": "Luigi Mangione, accused of the murder of United Healthcare CEO Brian Thompson, arrives at court in New York City on September 16, 2025. Mangione is accused of shooting and killing United Healthcare CEO Brian Thompson on December 4, 2024.\n \n\nThe judge said pro\u2026",
-            "url": "https://gothamist.com/news/ny-judge-drops-state-terrorism-charges-against-luigi-mangione-in-unitedhealthcare-murder-case",
-            "urlToImage": "https://api-prod.gothamist.com/images/353272/fill-1200x650|format-webp|webpquality-85/",
-            "publishedAt": "2025-09-16T15:49:00Z",
-            "content": "A Manhattan judge on Tuesday dismissed two counts of terrorism charges against Luigi Mangione, saying in court that prosecutors had not presented sufficient evidence to bring them.\r\nMangione will sti\u2026 [+2889 chars]"
+            "author": "Jennifer Ludden",
+            "title": "The federal shutdown puts nutrition aid for millions of new parents at risk",
+            "description": "Nearly seven million pregnant women and young children depend on WIC for healthy foods. Advocates say funding could run out in about two weeks, leaving states to close the gap if their budgets allow.",
+            "url": "https://www.npr.org/2025/10/02/nx-s1-5557289/federal-shutdown-nutrition-aid-wic-snap-benefits-government-funding",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1110x624+0+86/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5b%2F85%2Fae1d4c2240e78387ad37fb0d5caa%2Fgraves-photo.jpg",
+            "publishedAt": "2025-10-02T04:01:00Z",
+            "content": "The federal shutdown won't impact benefits from major programs such as Medicare, Medicaid and Social Security. But one of the first things that could get hit is the nutrition assistance that many pre\u2026 [+3827 chars]"
         },
         {
             "source": {
                 "id": "business-insider",
                 "name": "Business Insider"
             },
-            "author": "Kristine Villarroel",
-            "title": "The 10 most affordable states in the US in 2025 \u2014 and the 10 least affordable",
-            "description": "US News & World Report ranked all 50 states by affordability by looking at each state's housing affordability and cost of living.",
-            "url": "https://www.businessinsider.com/most-least-affordable-us-states-ranked",
-            "urlToImage": "https://i.insider.com/68bedbb057d362d375e7b4d4?width=1200&format=jpeg",
-            "publishedAt": "2025-09-15T17:24:17Z",
-            "content": "From groceries to housing, living is getting more expensive, but some states are feeling the effects of rising prices more than others.\r\nWhile states like Hawaii and California are seeing increases i\u2026 [+6256 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Science Daily"
-            },
-            "author": null,
-            "title": "Cannabis use may quadruple diabetes risk",
-            "description": "A massive study of over 4 million adults has revealed that cannabis use may nearly quadruple the risk of developing diabetes. Despite some earlier suggestions that cannabis might have metabolic benefits, this large analysis found significantly higher diabetes\u2026",
-            "url": "https://www.sciencedaily.com/releases/2025/09/250914205803.htm",
-            "urlToImage": "https://www.sciencedaily.com/images/1920/marijuana-leaf-cannabis-chocolate-brownies.webp",
-            "publishedAt": "2025-09-15T02:42:45Z",
-            "content": "Cannabis use is linked to an almost quadrupling in the risk of developing diabetes, according to an analysis of real-world data from over 4 million adults, being presented at this year\u2019s Annual Meeti\u2026 [+3529 chars]"
+            "author": "Ayelet Sheffey,Juliana Kaplan",
+            "title": "The government has shut down. Federal workers are gearing up for mass firings.",
+            "description": "The government has officially shut down. The OMB warned that a new wave of federal worker firings could be imminent.",
+            "url": "https://www.businessinsider.com/how-government-shutdown-impacts-federal-workforce-trump-firings-2025-10",
+            "urlToImage": "https://i.insider.com/68dbdb4bcc993f9955cf2ce7?width=1200&format=jpeg",
+            "publishedAt": "2025-10-01T04:01:04Z",
+            "content": "Trump's administration warned that a government shutdown could lead to federal worker firings.Bonnie Cash/Getty Images\r\n<ul><li>The government has shut down, beginning at 12:01 a.m. on October 1.</li\u2026 [+5107 chars]"
         },
         {
             "source": {
                 "id": "business-insider",
                 "name": "Business Insider"
             },
-            "author": "Henry Chandonnet",
-            "title": "Inside the rarely used fridges of 20-something tech founders",
-            "description": "Six young tech founders opened their fridges for us. Only one said they consistently cooked; the others relied on delivery services and takeout.",
-            "url": "https://www.businessinsider.com/tech-startup-founder-fridge-photos-2025-9",
-            "urlToImage": "https://i.insider.com/68c703bbf9db348adc0b70b3?width=1200&format=jpeg",
-            "publishedAt": "2025-09-15T09:59:02Z",
-            "content": "Six mid-20s tech founders took us inside their fridges.Haokun Qin; Josh Sirota; Boris Skurikhin\r\n<ul><li>Six young tech founders opened up their refrigerators for Business Insider. Many of them were \u2026 [+5818 chars]"
+            "author": "Alistair Barr",
+            "title": "These are the most 'AI-proof' software companies, according to analysts",
+            "description": "Investors worry that generative AI will disrupt software business models. These companies could fend off the threat.",
+            "url": "https://www.businessinsider.com/software-saas-ai-proof-companies-2025-10",
+            "urlToImage": "https://i.insider.com/68dd976e1c1f80efbec4be73?width=1200&format=jpeg",
+            "publishedAt": "2025-10-02T09:00:01Z",
+            "content": "Clearwater Analytics CEO Sandeep Sahai rings the opening bell at the New York Stock Exchange.REUTERS/Andrew Kelly\r\n<ul><li>Vertical software firms are seen as resilient amid AI disruption, according \u2026 [+4587 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Forbes"
             },
-            "author": "Geri Stengel, Contributor, \n Geri Stengel, Contributor\n https://www.forbes.com/sites/geristengel/",
-            "title": "Hispanic Woman Entrepreneur Builds $10 Million Plus Think Tank",
-            "description": "Hispanic woman entrepreneur Shannon Langrand built a $10M+ women-owned business reshaping healthcare with foresight, brand transformation, and B2B2C strategy.",
-            "url": "https://www.forbes.com/sites/geristengel/2025/09/15/hispanic-woman-entrepreneur-builds-10-million-plus-think-tank/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68c6a3c10253a5bc6d705d84/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2025-09-15T11:00:00Z",
-            "content": "Shannon Langrand, founder and CEO of Langrand, a Hispanic woman entrepreneur who has built a $10 million-plus creative think tank with a focus on health, speaks to a client about the power of strateg\u2026 [+7504 chars]"
+            "author": "David Chou, Contributor, \n David Chou, Contributor\n https://www.forbes.com/sites/davidchou/",
+            "title": "The AI Balancing Act For Healthcare CIOs",
+            "description": "Explore how healthcare CIOs can strike the right balance with AI by focusing on two priorities: strengthening talent strategies and building governance frameworks",
+            "url": "https://www.forbes.com/sites/davidchou/2025/09/30/the-ai-balancing-act-for-healthcare-cios/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68dc8865027f536d6ca065b3/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2025-10-01T01:51:19Z",
+            "content": "Artistic Gymnastics - Olympic Games Paris 2024: Day 10\r\nGetty Images\r\nAI appears in nearly every new product pitch we hear from vendors. At the same time, healthcare CIOs are developing plans to dete\u2026 [+3568 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Theregister.com"
+            },
+            "author": "SA Mathieson",
+            "title": "UK's digital hospital plan meets analog reality check",
+            "description": "Experts ask: Where will staff come from, and what about gran's flip phone?\nThe government has announced a new \"digital hospital\" service in England that will provide online appointments with consultants as an alternative to visiting a National Health Service \u2026",
+            "url": "https://www.theregister.com/2025/10/01/nhs_online/",
+            "urlToImage": "https://regmedia.co.uk/2021/07/20/shutterstock_gp.jpg",
+            "publishedAt": "2025-10-01T08:13:14Z",
+            "content": "The government has announced a new \"digital hospital\" service in England that will provide online appointments with consultants as an alternative to visiting a National Health Service (NHS) hospital.\u2026 [+3498 chars]"
         }
     ]
 }

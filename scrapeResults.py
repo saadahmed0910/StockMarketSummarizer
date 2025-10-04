@@ -146,15 +146,10 @@ class WebScraper:
         results = []
         
         async with async_playwright() as p:
+            # Launch browser - FIXED: removed parentheses from executable_path
             browser = await p.chromium.launch(
                 headless=True,
-                executable_path="/usr/bin/chromium-browser",  # or /usr/bin/chromium
-                args=[
-                    "--no-sandbox",
-                    "--disable-dev-shm-usage"
-                ]
             )
-
             
             try:
                 for i, url in enumerate(urls):
@@ -226,20 +221,23 @@ def scrape_dataframe_urls(df: pd.DataFrame, url_column: str, delay_range=(3, 7))
     return scraped_data
 
 
-sample_urls = []
-
-# Example dataframe
-for df_urls in json_to_dataframe('news_raw.json')['url']:
-    sample_urls.append(df_urls)
-
-df = pd.DataFrame(sample_urls, columns=['urls'])
-
-# Scrape the URLs
-scraped_data = scrape_dataframe_urls(df, 'urls', delay_range=(5, 12))
-
-# The content ready for LLM processing
-llm_ready_content = scraped_data['all_content_combined']
-print(llm_ready_content[:500])  # Print first 500 characters as a sample
-
-print(f"Ready for LLM: {len(llm_ready_content)} characters")
-print(f"Success rate: {scraped_data['summary_stats']['successful']}/{scraped_data['summary_stats']['total_urls']}")
+def get_llm_ready_content(json_file='news_raw.json', delay_range=(5, 12)):
+    """
+    Get scraped content ready for LLM processing.
+    Only runs when explicitly called (not on import).
+    
+    Args:
+        json_file: Path to JSON file containing URLs
+        delay_range: Tuple of (min, max) seconds to wait between requests
+        
+    Returns:
+        String containing all scraped content ready for LLM
+    """
+    sample_urls = []
+    for df_urls in json_to_dataframe(json_file)['url']:
+        sample_urls.append(df_urls)
+    
+    df = pd.DataFrame(sample_urls, columns=['urls'])
+    scraped_data = scrape_dataframe_urls(df, 'urls', delay_range=delay_range)
+    
+    return scraped_data['all_content_combined']

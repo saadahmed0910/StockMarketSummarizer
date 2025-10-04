@@ -6,6 +6,10 @@ import markdown
 from supabase import create_client, Client
 from dotenv import load_dotenv
 from db import add_signup
+# IMPORT AT TOP - No more lazy imports!
+from new_api import get_top_headlines
+from gemini_summarize import get_summary, save_summary_to_gcs
+from scrapeResults import get_llm_ready_content
 
 load_dotenv()
 
@@ -16,55 +20,59 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 file_path = 'news_raw.json'
 app = Flask(__name__)
 
-app.secret_key = 'SUPERSECRETKEY'
+app.secret_key = os.getenv('FLASK_SECRET_KEY', 'SUPERSECRETKEY')  # Use env var in production
 app.config['SESSION_COOKIE_NAME'] = 'my_session_cookie'
 
 @app.route('/')
 def index():
-    # Show the input form to the user
     return render_template('index.html')
 
 @app.route('/submit_email', methods=['POST'])
 def email_signup():
-    # Only triggered when user submits the form
     session['user_email'] = request.form['chosenEmail']
     user_email = session['user_email']
 
     session['email_industry'] = request.form['chosenTopic_email']
-    email_industry = session['email_industry'] #redundant but whatever
+    email_industry = session['email_industry']
 
-    add_signup(user_email, "Anonymous", email_industry)  # Save to Supabase
+    add_signup(user_email, "Anonymous", email_industry)
 
-    print(f"User email submitted: {user_email}")  # Debugging line to confirm email capture
+    print(f"User email submitted: {user_email}")
 
-    # Acknowledge email submission
     return render_template('thankyou_email.html', user_email=user_email, email_industry=email_industry)
 
 @app.route('/submit_text', methods=['POST'])
 def industry_search():
-    from new_api import get_top_headlines
-    
-    # Only triggered when user submits the form
+    # Get user input
     session['industry_chosen'] = request.form['chosenTopic']
     session['user_experience_level'] = request.form['experienceLevel']
 
-    # Fetch fresh headlines
+    # Step 1: Fetch fresh headlines from API
     user_industry_choice = get_top_headlines(session['industry_chosen'])
 
-    # Save fresh data to JSON file
+    # Step 2: Save to JSON file
     with open(file_path, "w") as json_file:
         json.dump(user_industry_choice, json_file, indent=4)
     
-    json_to_dataframe(file_path)  # Process the fresh JSON data
+    # Step 3: Process JSON into dataframe
+    json_to_dataframe(file_path)
 
-    from gemini_summarize import get_summary, save_summary_to_gcs #Import here to avoid error on loading this before df is created
-    # Generate summary based on fresh input
-    summary = get_summary(session['user_experience_level'], user_industry_choice)
-    save_summary_to_gcs(summary)
+    # Step 4: Scrape the URLs from the articles (THIS is what you want to analyze)
+    print("Scraping article content...")
+    scraped_content = get_llm_ready_content(file_path)
+    
+    # Step 5: Generate summary from SCRAPED content (not just API response)
+    print("Generating AI summary...")
+    summary = get_summary(session['user_experience_level'], scraped_content)
+    
+    # Step 6: Save to GCS
+    print("Saving to Google Cloud Storage...")
+    gcs_filename = save_summary_to_gcs(summary)
+    print(f"Saved to GCS: {gcs_filename}")
 
-
+    # Step 7: Read and format for display
     with open("summary.txt", "r", encoding="utf-8") as f:
-        formatted_summary = f.read() #stored results in summary.txt and am reading from there
+        formatted_summary = f.read()
 
     formatted_summary = markdown.markdown(formatted_summary)
 
