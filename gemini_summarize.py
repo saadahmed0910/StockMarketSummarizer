@@ -7,6 +7,7 @@ from google.cloud import storage
 from datetime import datetime
 import uuid
 from google.oauth2 import service_account
+import json
 
 load_dotenv()
 
@@ -67,11 +68,35 @@ def get_summary(experience_level, content):
 
     return response.text
 
+
 def save_summary_to_gcs(summary):
+    """
+    Save summary to Google Cloud Storage.
+    Works in local development (file path) and production (JSON string).
+    """
+    # Try file path first (local development)
     gcs_key_path = os.getenv('GCS_CREDENTIALS_PATH')
-    creds = service_account.Credentials.from_service_account_file(
-        gcs_key_path
-    )
+    
+    if gcs_key_path and os.path.exists(gcs_key_path):
+        # Local: Load credentials from file
+        creds = service_account.Credentials.from_service_account_file(gcs_key_path)
+    else:
+        # Production (Render): Load credentials from JSON environment variable
+        gcs_json_string = os.getenv('GCS_CREDENTIALS_JSON')
+        
+        if not gcs_json_string:
+            raise ValueError(
+                "GCS credentials not found!\n"
+                "Set GCS_CREDENTIALS_PATH (local) or GCS_CREDENTIALS_JSON (production)"
+            )
+        
+        # Parse JSON string into dictionary
+        credentials_dict = json.loads(gcs_json_string)
+        
+        # Create credentials from dictionary (not file)
+        creds = service_account.Credentials.from_service_account_info(credentials_dict)
+    
+    # Rest of your code stays the same
     storage_client = storage.Client(credentials=creds)
     bucket = storage_client.bucket("marketanalyzerproject")
 
