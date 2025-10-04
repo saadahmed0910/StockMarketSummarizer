@@ -10,3 +10,10 @@ markdown
 google-cloud-storage
 pandas
 numpy
+newsapi
+playwright
+json
+os
+google
+flask
+supabase
