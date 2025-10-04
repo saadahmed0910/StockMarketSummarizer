@@ -11,3 +11,5 @@ pandas
 newsapi-python
 playwright
 lxml
+google-genai
+
