@@ -11,3 +11,4 @@ pandas
 newsapi-python
 playwright
 lxml
+tqdm
