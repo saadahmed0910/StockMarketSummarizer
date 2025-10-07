@@ -22,7 +22,7 @@ def get_top_headlines(choice):
                                             from_param = (day_before_yesterday),
                                             to = (yesterday),
                                             sort_by = 'relevancy',
-                                            page_size = 15
+                                            page_size = 8
                                             )
                                             
     
