@@ -80,7 +80,9 @@ def industry_search():
     return render_template(
         'results.html',
         user_industry_choice=user_industry_choice,
-        formatted_summary=formatted_summary
+        formatted_summary=formatted_summary,
+        industry_chosen=session['industry_chosen'],
+        user_experience_level=session['user_experience_level']
     )
 
 
