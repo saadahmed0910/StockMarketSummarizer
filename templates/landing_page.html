@@ -1,0 +1,51 @@
+{%extends 'layout.html'%}
+
+{%block content %}
+<div class="hero">
+    <div class="hero-content">
+        <div class="logo">MarketPulse</div>
+        
+        <h1>
+            Keeping up to date with<br>
+            <span class="gradient-text">the market</span> just got easier
+        </h1>
+        
+        <p class="subtitle">
+            Get instant, AI-powered summaries of the latest market news across any industry. 
+            Stay informed and make better investment decisions without the information overload.
+        </p>
+
+       <form action="/index" method="GET">
+            <button type="submit" class="cta-button">
+                Get Started →
+            </button>
+        </form>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">Industry-Focused</div>
+                <div class="feature-description">
+                    Choose your industry and get tailored summaries that matter to your portfolio
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-title">Real-Time Updates</div>
+                <div class="feature-description">
+                    Access the latest market news synthesized into clear, concise insights
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📧</div>
+                <div class="feature-title">Daily Digest</div>
+                <div class="feature-description">
+                    Subscribe to receive personalized market summaries delivered to your inbox
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}

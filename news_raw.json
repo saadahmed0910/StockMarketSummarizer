@@ -1,201 +1,110 @@
 {
     "status": "ok",
-    "totalResults": 1368,
+    "totalResults": 257,
     "articles": [
         {
             "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
+                "id": null,
+                "name": "Kotaku"
             },
-            "author": "Ana Altchek",
-            "title": "Box's CEO predicts jobs will grow in these 3 sectors due to AI",
-            "description": "Box CEO Aaron Levie predicts AI will efficiency gains will boost demand for human workers in sales, healthcare, and legal sectors.",
-            "url": "https://www.businessinsider.com/aaron-levie-shares-3-sectors-jobs-grow-with-ai-2025-9",
-            "urlToImage": "https://i.insider.com/68db3dd35dbc4fd10da9d00f?width=1200&format=jpeg",
-            "publishedAt": "2025-10-01T14:52:36Z",
-            "content": "Aaron Levie said he uses a variety of AI tools.Box\r\n<ul><li>Box CEO Aaron Levie predicts AI will increase demand for certain sectors.</li><li>He said as AI tools enhance efficiency, they will boost d\u2026 [+2910 chars]"
+            "author": "Kotaku Deals",
+            "title": "Jackery\u2019s 1500W Power Station Is Cheaper Than During Prime Day, Looks Like Amazon\u2019s Selling at Cost",
+            "description": "This portable power station can charge everything from small devices to large appliances.\nThe post Jackery\u2019s 1500W Power Station Is Cheaper Than During Prime Day, Looks Like Amazon\u2019s Selling at Cost appeared first on Kotaku.",
+            "url": "https://kotaku.com/jackerys-1500w-power-station-is-cheaper-than-during-prime-day-looks-like-amazons-selling-at-cost-2000634122",
+            "urlToImage": "https://kotaku.com/app/uploads/2025/08/jackery-power-station.jpg",
+            "publishedAt": "2025-10-10T23:21:48Z",
+            "content": "Prime Big Deal Day took place from October 7th through October 8th, and Amazon doubled down from July\u2019s Prime Day by cutting the price to all-time lows on nearly all product lines. The Jackery Explor\u2026 [+3259 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "NPR"
+                "name": "9to5Mac"
             },
-            "author": "Obed Manuel",
-            "title": "What will Congress do after the shutdown? We asked a Republican and a Democrat",
-            "description": "Most of the federal government is shut down after Congress failed to reach a funding agreement. We asked two House members \u2014 a Democrat and Republican \u2014 where they think talks go from here",
-            "url": "https://www.npr.org/2025/10/01/g-s1-91462/federal-government-shutdown-republicans-democrats-negotiation",
-            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1944x1094+0+101/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F30%2Fbab9bb08493187ad41bbcf6bf953%2Fap25274456520062.jpg",
-            "publishedAt": "2025-10-01T17:02:33Z",
-            "content": "Most of the federal government is shut down after Senate Republicans and Democrats failed to reach a funding agreement to keep it open.\r\nDemocrats wanted to extend Affordable Care Act (ACA) subsidies\u2026 [+3498 chars]"
+            "author": "Dylan McDonald",
+            "title": "ESR recalls over 50,000 HaloLock\u00a0wireless power banks due to fire and burn hazards",
+            "description": "In conjunction with the U.S. Consumer Product Safety Commission (CPSC) and Health Canada, WayMeet Limited is recalling four models of their ESR wireless power banks.\n\n\n\n more\u2026",
+            "url": "https://9to5mac.com/2025/10/10/esr-recalls-over-50000-halolock-magsafe-power-banks/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/ESR-Recall-FI.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2025-10-10T23:33:29Z",
+            "content": "In conjunction with the U.S. Consumer Product Safety Commission (CPSC) and Health Canada, WayMeet Limited is recalling four models of their ESR wireless power banks.\r\nThese power banks are being reca\u2026 [+2373 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "NPR"
+                "name": "Android Central"
             },
-            "author": "Brian Mann",
-            "title": "Trump freezes $18 billion in funding for NYC, home to key Democratic leaders",
-            "description": "On the first day of the federal government shutdown, the Trump administration froze \"roughly $18 billion\" in infrastructure projects for New York City, home to two of Trump's Democratic congressional opponents.  It's not the first time Trump has threatened ci\u2026",
-            "url": "https://www.npr.org/2025/10/01/nx-s1-5559386/trump-freezes-18-billion-in-funding-for-nyc-home-to-key-democratic-leaders",
-            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5392x3033+0+280/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F87%2Ff3bec19747c49d3885e032b179e5%2Fgettyimages-2237787866.jpg",
-            "publishedAt": "2025-10-01T17:55:39Z",
-            "content": "On the first day of the federal government shutdown, the Trump administration fired a financial salvo at New York City, home to Senate Minority Leader Senator Chuck Schumer and House Minority Leader \u2026 [+3517 chars]"
+            "author": "nickodiaz@sbcglobal.net (Nickolas Diaz) , Nickolas Diaz",
+            "title": "Samsung lets you 'Experience' the Galaxy in more stores across the US",
+            "description": "Samsung announced an Experience Store expansion to bring more people in for a hands-on Galaxy trip.",
+            "url": "https://www.androidcentral.com/phones/samsung-galaxy/samsung-experience-the-galaxy-in-more-stores-across-the-us",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/2ifCgkCjEeHuj65yKroARB-2048-80.jpg",
+            "publishedAt": "2025-10-09T10:08:00Z",
+            "content": "What you need to know\r\n<ul><li>Samsung announced that it's expanding its Experience Stores to three new places: Queens, New York, the Mall of America, Minnesota, and Los Cerritos Center, California.<\u2026 [+3110 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Gizmodo.com"
+                "name": "Android Central"
             },
-            "author": "Ece Yildirim",
-            "title": "Trump Admin Cuts Off Funding for NYC Transportation, Blames \u2018DEI\u2019",
-            "description": "Republicans use the government shutdown to attack transportation projects in Democratic cities.",
-            "url": "https://gizmodo.com/trump-admin-cuts-off-funding-for-nyc-transportation-blames-dei-2000666188",
-            "urlToImage": "https://gizmodo.com/app/uploads/2025/10/shutterstock_2468732001-1200x675.jpg",
-            "publishedAt": "2025-10-01T17:55:46Z",
-            "content": "The Department of Transportation is blocking funding to two highly anticipated New York City transportation infrastructure projects.\r\nThe Department issued an interim final rule that bars \u201crace- and \u2026 [+3748 chars]"
+            "author": "techkritiko@gmail.com (Jay Bonggolto) , Jay Bonggolto",
+            "title": "The Motorola Edge 70 is taking a shot at Apple and Samsung with a massive battery",
+            "description": "The Motorola Edge 70 could be the thinnest phone that doesn\u2019t compromise on power.",
+            "url": "https://www.androidcentral.com/phones/motorola/the-motorola-edge-70-is-taking-a-shot-at-apple-and-samsung-with-a-massive-battery",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/4tiQS8knLEkXSjMB8DXBwD-700-80.jpg",
+            "publishedAt": "2025-10-10T12:38:00Z",
+            "content": "What you need to know\r\n<ul><li>The Motorola Edge 70 officially debuts on November 5, marking Motorola\u2019s entry into the ultra-thin smartphone race.</li><li>It packs a 4,800mAh silicon-carbon battery, \u2026 [+2711 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Travel+Leisure"
+                "name": "Android Central"
             },
-            "author": "Michael Cappetta",
-            "title": "This Country Was Just Named the Best Place in the World to Retire in 2025 for Its Health Care, Equality, and Quality of Life",
-            "description": "Ireland, Switzerland, and Iceland also ranked high, while the U.S. came in at No. 21.",
-            "url": "https://www.travelandleisure.com/best-country-to-retire-2025-11817415",
-            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/h4TErHCtGU90g_bChN8jvw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTg7Y2Y9d2VicA--/https://media.zenfs.com/en/travel.travelleisure.com/a3db25523430a3875d10bede28cfbf0d",
-            "publishedAt": "2025-10-02T12:07:00Z",
-            "content": "Retirement years can bring new adventures and cultural experiences, especially for those who choose to relocate abroad.\r\nThe new\u00a02025 Global Retirement Index highlighted Norway as the best country fo\u2026 [+2187 chars]"
-        },
-        {
-            "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-            },
-            "author": "Jacob Zinkula",
-            "title": "A Northwestern grad shares how she landed job interviews at Uber, Meta, and Amazon \u2014 and a tech role at Salesforce",
-            "description": "A Gen Zer shares the job search strategies that helped her land interviews at Uber, Meta, and Amazon, and a tech role at Salesforce.",
-            "url": "https://www.businessinsider.com/job-search-advice-strategies-tech-interviews-uber-meta-amazon-salesforce-2025-10",
-            "urlToImage": "https://i.insider.com/68cd87cbf9db348adc0bd2d9?width=1200&format=jpeg",
-            "publishedAt": "2025-10-01T09:00:02Z",
-            "content": "Karishma MandalKarishma Mandal\r\n<ul><li>Karishma Mandal moved from Chicago to San Francisco, hoping to land a Big Tech job.</li><li>She interviewed at Uber, Meta, and Amazon \u2014 and landed a product ma\u2026 [+7722 chars]"
-        },
-        {
-            "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-            },
-            "author": "Rebecca Torrence",
-            "title": "Midi Health raises $50 million in funding as the menopause startup bets on longevity and AI",
-            "description": "Midi's Series C raise comes as the startup's menopause care business surges. The company is now posting a $150 million revenue run rate.",
-            "url": "https://www.businessinsider.com/womens-health-startup-midi-health-50-million-longevity-ai-2025-10",
-            "urlToImage": "https://i.insider.com/68ddacff1c1f80efbec4bfcf?width=1200&format=jpeg",
-            "publishedAt": "2025-10-02T13:07:43Z",
-            "content": "Midi Health cofounder and CEO Joanna Strober.Midi Health\r\n<ul><li>Women's health startup Midi Health raised $50 million in Series C funding, Business Insider learned.</li><li>CEO Joanna Strober said \u2026 [+6883 chars]"
+            "author": "nickodiaz@sbcglobal.net (Nickolas Diaz) , Nickolas Diaz",
+            "title": "Samsung's Trifold leak reveals an ingenious tri-battery system",
+            "description": "An alleged Samsung patent might've shown off three physical battery components it has planned for its Galaxy Trifold.",
+            "url": "https://www.androidcentral.com/phones/samsung-galaxy/samsung-galaxy-trifold-battery-trifecta-in-leaked-patent-document",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/auwZq9DyyYafa2RGaQRKU5-2560-80.jpg",
+            "publishedAt": "2025-10-09T19:07:00Z",
+            "content": "What you need to know\r\n<ul><li>A leaked Samsung patent shows off the trickery it might pull with the Galaxy Trifold to squeeze in a larger battery capacity.</li><li>The patent documents suggest the d\u2026 [+3226 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "nj.com"
+                "name": "Yahoo Entertainment"
             },
-            "author": "Lauren Sforza",
-            "title": "New poll: Here\u2019s how many Americans blame Trump for government shutdown",
-            "description": "President Donald Trump blamed Democrats for the ongoing government shutdown \u2014 but who do Americans blame?",
-            "url": "https://www.nj.com/politics/2025/10/new-poll-heres-how-many-americans-blame-trump-for-government-shutdown.html",
-            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/pO2NqZr1L98V6Gpmn2LQxg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/nj_com_articles_950/e4a4511f89598c5272426bf28b012d2c",
-            "publishedAt": "2025-10-02T17:51:32Z",
-            "content": "President Donald Trumpblamed Democrats for the ongoing shutdown of the federal government but who do Americans blame?\r\nA new flash poll from The Washington Post found that significantly more American\u2026 [+2385 chars]"
+            "author": "Daniel Gala",
+            "title": "Firefighters issue urgent PSA after noticing dangerous trend in garbage: 'Skip the bin, turn [them] in'",
+            "description": "\"[These] fires are happening more often.\"",
+            "url": "https://www.yahoo.com/news/articles/firefighters-issue-urgent-psa-noticing-235500662.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/O6712guGj1tq3I6AhbmAqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjE7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/fb6baada755533a48ba8713676fb6881",
+            "publishedAt": "2025-10-09T23:55:00Z",
+            "content": "Firefighters and advocates have sounded the alarm after a troubling increase in fires sparked in trash bins, garbage trucks, and waste-collection facilities. Experts have blamed the increase on the s\u2026 [+3886 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Forbes"
+                "name": "Kk.org"
             },
-            "author": "Dr. Sai Balasubramanian, M.D., J.D., Contributor, \n Dr. Sai Balasubramanian, M.D., J.D., Contributor\n https://www.forbes.com/sites/saibala/",
-            "title": "United Health\u2019s Optum Insights Announces Sandeep Dadlani As New CEO; These Are His Top 3 Priorities",
-            "description": "United Healthcare Group is one of the biggest players in the American healthcare industry, and is taking a tech-forward approach to the future.",
-            "url": "https://www.forbes.com/sites/saibala/2025/10/01/united-healths-optum-insights-announces-sandeep-dadlani-as-new-ceo-these-are-his-top-3-priorities/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68dc2ab18ae522f91c835c22/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2025-10-01T13:00:00Z",
-            "content": "United Healthcare Group is one of the biggest players in the American healthcare industry, and is taking a tech-forward approach to the future.\r\nAFP via Getty Images\r\nUnitedHealth Group (UHG) is a ma\u2026 [+5027 chars]"
+            "author": "claudia",
+            "title": "Gar\u2019s Tips & Tools \u2013 Issue #205",
+            "description": "Access to tools, techniques, and shop tales from the diverse worlds of DIY",
+            "url": "https://kk.org/cooltools/gars-tips-tools-issue-205/",
+            "urlToImage": null,
+            "publishedAt": "2025-10-10T20:56:00Z",
+            "content": "Building Your Own Desktop Spray Booth\r\nhttps://youtu.be/klM12WVu4FI\r\nI have long flirted with the idea of making my own tabletop spray booth. In this episode of\u00a0Steady Craftin, everyones favorite pup\u2026 [+4802 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "NPR"
+                "name": "GSMArena.com"
             },
-            "author": "The Associated Press",
-            "title": "Anti-government protests in Morocco turn deadly, with 2 killed in a small town",
-            "description": "Youth-led anti-government demonstrators in Morocco filled the streets for a fifth straight night on Wednesday, as protests over the state of public services descended into deadly violence.",
-            "url": "https://www.npr.org/2025/10/02/g-s1-91601/anti-government-protests-morocco",
-            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5464x3074+0+285/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fba%2F4d%2F1c249bce4294961300538f7769e5%2Fap25274828738910.jpg",
-            "publishedAt": "2025-10-02T08:24:25Z",
-            "content": "RABAT, Morocco Anti-government demonstrators in Morocco filled the streets for a fifth straight night on Wednesday, as protests over the state of public services descended into deadly violence. Polic\u2026 [+5778 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "NPR"
-            },
-            "author": "Jennifer Ludden",
-            "title": "The federal shutdown puts nutrition aid for millions of new parents at risk",
-            "description": "Nearly seven million pregnant women and young children depend on WIC for healthy foods. Advocates say funding could run out in about two weeks, leaving states to close the gap if their budgets allow.",
-            "url": "https://www.npr.org/2025/10/02/nx-s1-5557289/federal-shutdown-nutrition-aid-wic-snap-benefits-government-funding",
-            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1110x624+0+86/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5b%2F85%2Fae1d4c2240e78387ad37fb0d5caa%2Fgraves-photo.jpg",
-            "publishedAt": "2025-10-02T04:01:00Z",
-            "content": "The federal shutdown won't impact benefits from major programs such as Medicare, Medicaid and Social Security. But one of the first things that could get hit is the nutrition assistance that many pre\u2026 [+3827 chars]"
-        },
-        {
-            "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-            },
-            "author": "Ayelet Sheffey,Juliana Kaplan",
-            "title": "The government has shut down. Federal workers are gearing up for mass firings.",
-            "description": "The government has officially shut down. The OMB warned that a new wave of federal worker firings could be imminent.",
-            "url": "https://www.businessinsider.com/how-government-shutdown-impacts-federal-workforce-trump-firings-2025-10",
-            "urlToImage": "https://i.insider.com/68dbdb4bcc993f9955cf2ce7?width=1200&format=jpeg",
-            "publishedAt": "2025-10-01T04:01:04Z",
-            "content": "Trump's administration warned that a government shutdown could lead to federal worker firings.Bonnie Cash/Getty Images\r\n<ul><li>The government has shut down, beginning at 12:01 a.m. on October 1.</li\u2026 [+5107 chars]"
-        },
-        {
-            "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-            },
-            "author": "Alistair Barr",
-            "title": "These are the most 'AI-proof' software companies, according to analysts",
-            "description": "Investors worry that generative AI will disrupt software business models. These companies could fend off the threat.",
-            "url": "https://www.businessinsider.com/software-saas-ai-proof-companies-2025-10",
-            "urlToImage": "https://i.insider.com/68dd976e1c1f80efbec4be73?width=1200&format=jpeg",
-            "publishedAt": "2025-10-02T09:00:01Z",
-            "content": "Clearwater Analytics CEO Sandeep Sahai rings the opening bell at the New York Stock Exchange.REUTERS/Andrew Kelly\r\n<ul><li>Vertical software firms are seen as resilient amid AI disruption, according \u2026 [+4587 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Forbes"
-            },
-            "author": "David Chou, Contributor, \n David Chou, Contributor\n https://www.forbes.com/sites/davidchou/",
-            "title": "The AI Balancing Act For Healthcare CIOs",
-            "description": "Explore how healthcare CIOs can strike the right balance with AI by focusing on two priorities: strengthening talent strategies and building governance frameworks",
-            "url": "https://www.forbes.com/sites/davidchou/2025/09/30/the-ai-balancing-act-for-healthcare-cios/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68dc8865027f536d6ca065b3/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2025-10-01T01:51:19Z",
-            "content": "Artistic Gymnastics - Olympic Games Paris 2024: Day 10\r\nGetty Images\r\nAI appears in nearly every new product pitch we hear from vendors. At the same time, healthcare CIOs are developing plans to dete\u2026 [+3568 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Theregister.com"
-            },
-            "author": "SA Mathieson",
-            "title": "UK's digital hospital plan meets analog reality check",
-            "description": "Experts ask: Where will staff come from, and what about gran's flip phone?\nThe government has announced a new \"digital hospital\" service in England that will provide online appointments with consultants as an alternative to visiting a National Health Service \u2026",
-            "url": "https://www.theregister.com/2025/10/01/nhs_online/",
-            "urlToImage": "https://regmedia.co.uk/2021/07/20/shutterstock_gp.jpg",
-            "publishedAt": "2025-10-01T08:13:14Z",
-            "content": "The government has announced a new \"digital hospital\" service in England that will provide online appointments with consultants as an alternative to visiting a National Health Service (NHS) hospital.\u2026 [+3498 chars]"
+            "author": "Sagar",
+            "title": "Patents show Samsung's tri-fold has three batteries",
+            "description": "Samsung will launch its first tri-fold smartphone this year, but the brand hasn't revealed its launch date yet. And while we await more information from Samsung about this smartphone, rumored to be called the Galaxy Z TriFold, a patent document published by K\u2026",
+            "url": "https://www.gsmarena.com/samsung_galaxy_z_trifold_patent_design_three_batteries-news-69862.php",
+            "urlToImage": "https://fdn.gsmarena.com/imgroot/news/25/10/samsung-galaxy-z-trifold-patent-design-three-batteries/-952x498w6/gsmarena_001.jpg",
+            "publishedAt": "2025-10-09T14:46:02Z",
+            "content": "Samsung will launch its first tri-fold smartphone this year, but the brand hasn't revealed its launch date yet. And while we await more information from Samsung about this smartphone, rumored to be c\u2026 [+1477 chars]"
         }
     ]
 }

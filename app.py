@@ -25,6 +25,10 @@ app.config['SESSION_COOKIE_NAME'] = 'my_session_cookie'
 
 @app.route('/')
 def index():
+    return render_template('landing_page.html')
+
+@app.route('/index')
+def show_form():
     return render_template('index.html')
 
 @app.route('/submit_email', methods=['POST'])
