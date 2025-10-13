@@ -1,4 +1,4 @@
-from flask import Flask, request, session, render_template
+from flask import Flask, request, session, render_template, jsonify, url_for
 import json
 from json_cleaned import json_to_dataframe
 import os
@@ -47,10 +47,18 @@ def email_signup():
 
 @app.route('/submit_text', methods=['POST'])
 def industry_search():
-    # Get user input
+    # Get user input and store in session
     session['industry_chosen'] = request.form['chosenTopic']
     session['user_experience_level'] = request.form['experienceLevel']
+    
+    # Immediately show loading page
+    return render_template('loading.html')
 
+
+@app.route('/generate_summary', methods=['GET'])
+def generate_summary():
+    # This route does the actual work
+    
     # Step 1: Fetch fresh headlines from API
     user_industry_choice = get_top_headlines(session['industry_chosen'])
 
@@ -61,11 +69,11 @@ def industry_search():
     # Step 3: Process JSON into dataframe
     json_to_dataframe(file_path)
 
-    # Step 4: Scrape the URLs from the articles (THIS is what you want to analyze)
+    # Step 4: Scrape the URLs from the articles
     print("Scraping article content...")
     scraped_content = get_llm_ready_content(file_path)
     
-    # Step 5: Generate summary from SCRAPED content (not just API response)
+    # Step 5: Generate summary from SCRAPED content
     print("Generating AI summary...")
     summary = get_summary(session['user_experience_level'], scraped_content)
     
@@ -80,7 +88,22 @@ def industry_search():
 
     formatted_summary = markdown.markdown(formatted_summary)
 
-    # Show results
+    # Return JSON response
+    return jsonify({
+        'success': True,
+        'redirect': url_for('show_results')
+    })
+
+
+@app.route('/results')
+def show_results():
+    # Read the data from session/files
+    with open(file_path, "r") as json_file:
+        user_industry_choice = json.load(json_file)
+    
+    with open("summary.txt", "r", encoding="utf-8") as f:
+        formatted_summary = markdown.markdown(f.read())
+    
     return render_template(
         'results.html',
         user_industry_choice=user_industry_choice,
@@ -88,8 +111,6 @@ def industry_search():
         industry_chosen=session['industry_chosen'],
         user_experience_level=session['user_experience_level']
     )
-
-
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 10000))
     app.run(host='0.0.0.0', port=port, debug=False)

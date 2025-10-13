@@ -1,110 +1,97 @@
 {
     "status": "ok",
-    "totalResults": 257,
+    "totalResults": 8,
     "articles": [
         {
             "source": {
-                "id": null,
-                "name": "Kotaku"
+                "id": "financial-post",
+                "name": "Financial Post"
             },
-            "author": "Kotaku Deals",
-            "title": "Jackery\u2019s 1500W Power Station Is Cheaper Than During Prime Day, Looks Like Amazon\u2019s Selling at Cost",
-            "description": "This portable power station can charge everything from small devices to large appliances.\nThe post Jackery\u2019s 1500W Power Station Is Cheaper Than During Prime Day, Looks Like Amazon\u2019s Selling at Cost appeared first on Kotaku.",
-            "url": "https://kotaku.com/jackerys-1500w-power-station-is-cheaper-than-during-prime-day-looks-like-amazons-selling-at-cost-2000634122",
-            "urlToImage": "https://kotaku.com/app/uploads/2025/08/jackery-power-station.jpg",
-            "publishedAt": "2025-10-10T23:21:48Z",
-            "content": "Prime Big Deal Day took place from October 7th through October 8th, and Amazon doubled down from July\u2019s Prime Day by cutting the price to all-time lows on nearly all product lines. The Jackery Explor\u2026 [+3259 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "9to5Mac"
-            },
-            "author": "Dylan McDonald",
-            "title": "ESR recalls over 50,000 HaloLock\u00a0wireless power banks due to fire and burn hazards",
-            "description": "In conjunction with the U.S. Consumer Product Safety Commission (CPSC) and Health Canada, WayMeet Limited is recalling four models of their ESR wireless power banks.\n\n\n\n more\u2026",
-            "url": "https://9to5mac.com/2025/10/10/esr-recalls-over-50000-halolock-magsafe-power-banks/",
-            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/ESR-Recall-FI.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-            "publishedAt": "2025-10-10T23:33:29Z",
-            "content": "In conjunction with the U.S. Consumer Product Safety Commission (CPSC) and Health Canada, WayMeet Limited is recalling four models of their ESR wireless power banks.\r\nThese power banks are being reca\u2026 [+2373 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Android Central"
-            },
-            "author": "nickodiaz@sbcglobal.net (Nickolas Diaz) , Nickolas Diaz",
-            "title": "Samsung lets you 'Experience' the Galaxy in more stores across the US",
-            "description": "Samsung announced an Experience Store expansion to bring more people in for a hands-on Galaxy trip.",
-            "url": "https://www.androidcentral.com/phones/samsung-galaxy/samsung-experience-the-galaxy-in-more-stores-across-the-us",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/2ifCgkCjEeHuj65yKroARB-2048-80.jpg",
-            "publishedAt": "2025-10-09T10:08:00Z",
-            "content": "What you need to know\r\n<ul><li>Samsung announced that it's expanding its Experience Stores to three new places: Queens, New York, the Mall of America, Minnesota, and Los Cerritos Center, California.<\u2026 [+3110 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Android Central"
-            },
-            "author": "techkritiko@gmail.com (Jay Bonggolto) , Jay Bonggolto",
-            "title": "The Motorola Edge 70 is taking a shot at Apple and Samsung with a massive battery",
-            "description": "The Motorola Edge 70 could be the thinnest phone that doesn\u2019t compromise on power.",
-            "url": "https://www.androidcentral.com/phones/motorola/the-motorola-edge-70-is-taking-a-shot-at-apple-and-samsung-with-a-massive-battery",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/4tiQS8knLEkXSjMB8DXBwD-700-80.jpg",
-            "publishedAt": "2025-10-10T12:38:00Z",
-            "content": "What you need to know\r\n<ul><li>The Motorola Edge 70 officially debuts on November 5, marking Motorola\u2019s entry into the ultra-thin smartphone race.</li><li>It packs a 4,800mAh silicon-carbon battery, \u2026 [+2711 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Android Central"
-            },
-            "author": "nickodiaz@sbcglobal.net (Nickolas Diaz) , Nickolas Diaz",
-            "title": "Samsung's Trifold leak reveals an ingenious tri-battery system",
-            "description": "An alleged Samsung patent might've shown off three physical battery components it has planned for its Galaxy Trifold.",
-            "url": "https://www.androidcentral.com/phones/samsung-galaxy/samsung-galaxy-trifold-battery-trifecta-in-leaked-patent-document",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/auwZq9DyyYafa2RGaQRKU5-2560-80.jpg",
-            "publishedAt": "2025-10-09T19:07:00Z",
-            "content": "What you need to know\r\n<ul><li>A leaked Samsung patent shows off the trickery it might pull with the Galaxy Trifold to squeeze in a larger battery capacity.</li><li>The patent documents suggest the d\u2026 [+3226 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "Daniel Gala",
-            "title": "Firefighters issue urgent PSA after noticing dangerous trend in garbage: 'Skip the bin, turn [them] in'",
-            "description": "\"[These] fires are happening more often.\"",
-            "url": "https://www.yahoo.com/news/articles/firefighters-issue-urgent-psa-noticing-235500662.html",
-            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/O6712guGj1tq3I6AhbmAqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjE7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/fb6baada755533a48ba8713676fb6881",
-            "publishedAt": "2025-10-09T23:55:00Z",
-            "content": "Firefighters and advocates have sounded the alarm after a troubling increase in fires sparked in trash bins, garbage trucks, and waste-collection facilities. Experts have blamed the increase on the s\u2026 [+3886 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Kk.org"
-            },
-            "author": "claudia",
-            "title": "Gar\u2019s Tips & Tools \u2013 Issue #205",
-            "description": "Access to tools, techniques, and shop tales from the diverse worlds of DIY",
-            "url": "https://kk.org/cooltools/gars-tips-tools-issue-205/",
+            "author": "The Canadian Press",
+            "title": "Kinew says drop tariffs on Chinese electric vehicles to get Chinese duties dropped",
+            "description": "WINNIPEG \u2014 Manitoba Premier Wab Kinew is asking the prime minister to scrap Canada\u2019s 100 per cent tariff on Chinese electric vehicles in return for China lifting its tariffs on Canadian canola and pork. Kinew says in a letter to Mark Carney on Saturday that w\u2026",
+            "url": "https://financialpost.com/pmn/kinew-says-drop-tariffs-on-chinese-electric-vehicles-to-get-chinese-duties-dropped",
             "urlToImage": null,
-            "publishedAt": "2025-10-10T20:56:00Z",
-            "content": "Building Your Own Desktop Spray Booth\r\nhttps://youtu.be/klM12WVu4FI\r\nI have long flirted with the idea of making my own tabletop spray booth. In this episode of\u00a0Steady Craftin, everyones favorite pup\u2026 [+4802 chars]"
+            "publishedAt": "2025-10-12T01:07:15Z",
+            "content": "WINNIPEG Manitoba Premier Wab Kinew is asking the prime minister to scrap Canadas 100 per cent tariff on Chinese electric vehicles in return for China lifting its tariffs on Canadian canola and pork.\u2026 [+5066 chars]"
+        },
+        {
+            "source": {
+                "id": "cbc-news",
+                "name": "CBC News"
+            },
+            "author": null,
+            "title": "Canada's tariffs on Chinese EVs created '2-front trade war' hurting Prairie canola, pork producers: Kinew",
+            "description": "Manitoba Premier Wab Kinew is asking the prime minister to scrap Canada's 100 per cent tariff on Chinese electric vehicles in return for China lifting its tariffs on Canadian canola and pork.",
+            "url": "https://www.cbc.ca/news/canada/manitoba/kinew-carney-canola-tariffs-prairie-pork-9.6936340",
+            "urlToImage": "https://i.cbc.ca/ais/f0773ae8-24e8-4db3-9707-9a3e47ec6cc4,1760281624821/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1180%2C663%29%3BResize%3D620",
+            "publishedAt": "2025-10-12T15:23:44Z",
+            "content": "Manitoba Premier Wab Kinew is asking the prime minister to scrap Canada's 100 per cent tariff on Chinese electric vehicles in return for China lifting its tariffs on Canadian canola and pork.\r\nKinew \u2026 [+3399 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-post",
+                "name": "Financial Post"
+            },
+            "author": "Bloomberg News",
+            "title": "Canada Will Fight to Save Auto Jobs Despite US Threat, Minister Says",
+            "description": "The Canadian economy is too dependent on the US, the country\u2019s industry minister said, as she vowed to protect jobs in its export-focused automotive sector.",
+            "url": "https://financialpost.com/pmn/business-pmn/canada-will-fight-to-save-auto-jobs-despite-us-threat-minister-says",
+            "urlToImage": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/10/us-parts-makers-are-winning-in-canada-trade-in-auto-parts-b-1.jpg",
+            "publishedAt": "2025-10-12T20:58:22Z",
+            "content": "(Bloomberg) The Canadian economy is too dependent on the US, the countrys industry minister said, as she vowed to protect jobs in its export-focused automotive sector. \u00a0\r\nTHIS CONTENT IS RESERVED FOR\u2026 [+4472 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "GSMArena.com"
+                "name": "BusinessLine"
             },
-            "author": "Sagar",
-            "title": "Patents show Samsung's tri-fold has three batteries",
-            "description": "Samsung will launch its first tri-fold smartphone this year, but the brand hasn't revealed its launch date yet. And while we await more information from Samsung about this smartphone, rumored to be called the Galaxy Z TriFold, a patent document published by K\u2026",
-            "url": "https://www.gsmarena.com/samsung_galaxy_z_trifold_patent_design_three_batteries-news-69862.php",
-            "urlToImage": "https://fdn.gsmarena.com/imgroot/news/25/10/samsung-galaxy-z-trifold-patent-design-three-batteries/-952x498w6/gsmarena_001.jpg",
-            "publishedAt": "2025-10-09T14:46:02Z",
-            "content": "Samsung will launch its first tri-fold smartphone this year, but the brand hasn't revealed its launch date yet. And while we await more information from Samsung about this smartphone, rumored to be c\u2026 [+1477 chars]"
+            "author": "ANI",
+            "title": "EVs, wind turbines, semiconductors to see price hikes amid latest US tariffs on China: GTRI",
+            "description": "Given the strategic importance of rare earths to US industries, Washington may soon have little choice but to reach a new deal with Beijing, says report",
+            "url": "https://www.thehindubusinessline.com/news/evs-wind-turbines-semiconductors-to-see-price-hikes-amid-latest-us-tariffs-on-china-gtri/article70151160.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/incoming/43ndiw/article70151183.ece/alternates/LANDSCAPE_1200/IMG_iStock-1145420471__1_2_1_6592NOPJ.jpg",
+            "publishedAt": "2025-10-11T06:32:23Z",
+            "content": "Prices of electric vehicles (EVs), wind turbines and semiconductor parts are expected to rise following the fresh trade escalation between the United States and China, according to a report by the Gl\u2026 [+2725 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ANI",
+            "title": "Prices of EVs, wind turbines, and semiconductors to rise amid fresh tariffs on China by US: GTRI",
+            "description": "US tariffs on Chinese goods will rise 100% from November 1, 2025, pushing up prices for EVs, wind turbines, and semiconductor parts, says GTRI. The escalation heightens US-China trade tensions and may force Washington into negotiations over rare earths.",
+            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/prices-of-evs-wind-turbines-and-semiconductors-to-rise-amid-fresh-tariffs-on-china-by-us-gtri/articleshow/124471136.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-124471159,width-1200,height-630,imgsize-113034,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2025-10-11T06:16:41Z",
+            "content": "Prices of electric vehicles (EVs), wind turbines, and semiconductor parts are expected to rise following the fresh trade escalation between the United States and China, according to a report by the G\u2026 [+2746 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-post",
+                "name": "Financial Post"
+            },
+            "author": "The Associated Press",
+            "title": "China vows to stand firm against Trump\u2019s 100% tariff threat",
+            "description": "BEIJING (AP) \u2014 China signaled Sunday that it would not back down in the face of a 100% tariff threat from President Donald Trump, urging the U.S. to resolve differences through negotiations instead of threats. \u201cChina\u2019s stance is consistent,\u201d the Commerce Mini\u2026",
+            "url": "https://financialpost.com/pmn/china-vows-to-stand-firm-against-trumps-100-tariff-threat",
+            "urlToImage": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/10/68e8f6fff30755102082de60jpeg.jpg",
+            "publishedAt": "2025-10-12T04:35:39Z",
+            "content": "BEIJING (AP) China signaled Sunday that it would not back down in the face of a 100% tariff threat from President Donald Trump, urging the U.S. to resolve differences through negotiations instead of \u2026 [+4913 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mother Jones"
+            },
+            "author": "Jeff St. John",
+            "title": "Newsom Just Vetoed California Bills Meant to Make the Grid Reliable and Tackle High Costs",
+            "description": "This story was originally published by\u00a0Canary Media and is reproduced here as part of the\u00a0Climate Desk\u00a0collaboration. Gov. Gavin Newsom of California has vetoed three bills that aimed to boost the use of virtual power plants, undermining an opportunity to dec\u2026",
+            "url": "https://www.motherjones.com/politics/2025/10/gavin-newsom-veto-ab-44-740-541-california-bills-clean-energy-grid-reliability-high-costs/",
+            "urlToImage": "https://www.motherjones.com/wp-content/uploads/2025/10/AP25281804677723.jpg?w=1200&h=630&crop=1",
+            "publishedAt": "2025-10-11T11:00:00Z",
+            "content": "California Gov. Gavin Newsom speaks at a news conference in October 2025.Damian Dovarganes/AP\r\nGet your news from a source thats not owned and controlled by oligarchs. Sign up for the free Mother Jon\u2026 [+7744 chars]"
         }
     ]
 }
