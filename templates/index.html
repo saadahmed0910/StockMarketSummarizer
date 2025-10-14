@@ -2,39 +2,65 @@
 
 {%block content %}
 
-<h1> The Summarizer </h1>
+<div class="summarizer-container">
+    <h1>The Summarizer</h1>
 
-<p>Use the following AI tool to summarize an industry of your choice in the context of finance so you can make informed decisions in the market</p>
-<form method = "POST" class = 'topic' action = "/submit_text">
-    <label for = "topic_Chosen" >Please choose an Industry</label>
-    <input type = "text" id = "topic_Chosen" name = "chosenTopic" required><br>
+    <p>Use the following AI tool to summarize an industry of your choice in the context of finance so you can make informed decisions in the market</p>
     
-    <label for = "experience_Level" >Please choose your experience level (beginner, intermediate, advanced)</label>
-    <input type = "text" id = "experience_Level" name = "experienceLevel" required><br>
-    <button type="submit"> Submit </button>
-</form>
+    <form method="POST" class="topic" action="/submit_text">
+        <label for="topic_Chosen">Please choose an Industry</label>
+        <select id="industry_select" name="chosenTopic" onchange="toggleCustomInput()">
+            <option value="">-- Select an option --</option>
+            <option value="Technology">Technology</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="Finance">Finance</option>
+            <option value="Energy">Energy</option>
+            <option value="Real Estate">Real Estate</option>
+            <option value="Retail">Retail</option>
+            <option value="other">Other (specify)</option>
+        </select>
 
-<h2> Interested in recieving a daily summary via Email?</h2>
+        <!-- Hidden custom input that appears when "Other" is selected -->
+        <div id="custom_industry_container" style="display: none;">
+            <input type="text" id="custom_industry" name="customIndustry" placeholder="Enter your industry">
+            <p style="font-size: 0.9em; color: #666; margin-top: 5px;">
+                💡 Tip: The more specific you get, the better the results typically
+            </p>
+        </div>
 
-<form method = "POST" class = 'email' action = "/submit_email">
+        <script>
+        function toggleCustomInput() {
+            // Get the select element
+            const selectElement = document.getElementById('industry_select');
+            // Get the container for custom input
+            const customContainer = document.getElementById('custom_industry_container');
+            
+            // Check if user selected "other"
+            if (selectElement.value === 'other') {
+                // Show the custom input box
+                customContainer.style.display = 'block';
+                // Make the custom input required
+                document.getElementById('custom_industry').required = true;
+                // Clear the select's required attribute since we're using custom input
+                selectElement.required = false;
+            } else {
+                // Hide the custom input box
+                customContainer.style.display = 'none';
+                // Remove required from custom input
+                document.getElementById('custom_industry').required = false;
+                // Make select required again
+                selectElement.required = true;
+            }
+        }
+        </script>
+        
+        <label for="experience_Level">Please choose your experience level (beginner, intermediate, advanced)</label>
+        <input type="text" id="experience_Level" name="experienceLevel" required><br>
+        <button type="submit">Submit</button>
+    </form>
 
-    <label for = "email_Chosen" >Please enter your email</label>
-    <input type = "email" id = "email_Chosen" name = "chosenEmail" required><br>
-
-    <label for = "topic_Chosen" >Please choose an Industry</label>
-    <input type = "text" id = "topic_Chosen_email" name = "chosenTopic_email" required><br>
-
-    <label for  = "experience_Level_email" >Please choose your experience level (beginner, intermediate, advanced)</label>
-    <input type = "text" id = "experience_Level_email" name = "experienceLevel_email" required><br>
-
-    <label for = "time_Chosen" >Please choose a time to recieve the email (in 24 hour format, e.g. 14:00 for 2pm)</label>
-    <input type = "text" id = "time_Chosen" name = "chosenTime" required><br>
-
-    <label for = "frequency_Chosen" >Please choose a frequency for the email (daily, weekly, monthly)</label>
-    <input type = "text" id = "frequency_Chosen" name = "chosenFrequency" required><br>
-    
-
-    <button type="submit"> Submit </button>
-</form>
+    <h2>Interested in receiving a daily summary via Email?</h2>
+    <a href="/email_signup"><button>Sign Up Here</button></a>
+</div>
 
 {%endblock%}

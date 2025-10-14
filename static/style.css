@@ -345,3 +345,60 @@ a:hover {
         max-width: 300px;
     }
 }
+.email-signup-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.email-signup-container form {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.email-signup-container input,
+.email-signup-container button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.email-signup-container label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.summarizer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.summarizer-container form {
+    text-align: left;
+    margin: 20px auto;
+}
+
+.summarizer-container input,
+.summarizer-container button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.summarizer-container label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.summarizer-container a button {
+    width: auto;
+    padding: 10px 30px;
+    margin-top: 10px;
+}

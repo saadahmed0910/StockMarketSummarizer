@@ -31,6 +31,10 @@ def index():
 def show_form():
     return render_template('index.html')
 
+@app.route('/email_signup')
+def show_email_signup():
+    return render_template('email_signup.html')
+
 @app.route('/submit_email', methods=['POST'])
 def email_signup():
     session['user_email'] = request.form['chosenEmail']
